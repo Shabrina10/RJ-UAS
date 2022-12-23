@@ -1,0 +1,208 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 10px;
+	background-color: #ABEBC6 ;
+}
+.medsos ul li{
+	display: inline-block;
+	color: black;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+header{
+
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: black;
+	font-family: papyrus;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #ABEBC6;
+	color: #fff;
+}
+.active{
+	background-color: #ABEBC6;
+	color: #fff;
+}
+.banner{
+	height: 70vh;
+	background-image: url(../img/gambar.jpg);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(171, 235, 198, .6);
+}
+.banner h2{
+	color:black;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid black;
+	font-family: copperplate;
+}
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 20px 0;
+	color: black;
+	font-family: papyrus;
+}
+.about p{
+	color: black;
+	word-spacing: ;
+	text-align: justify;
+	font-family: calibri;
+	padding: 10px 0;
+}
+footer{
+	padding: 30px 0;
+	background-color: #ABEBC6 ;
+	color: #fff;
+	text-align: center;
+}
+.judul h2{
+	height: 10vh;
+	text-align: center;
+	font-family: papyrus;
+	font-size: 25px;
+	
+}
+.judul {
+	height: 85vh ;
+	text-align: justify;
+	background-color: #F2F3F4;
+	padding: 20px 2;
+	font-family: georgia;
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	line-height: 40px;
+	margin: 0px 20px 0px 20px;
+}
+.tample h2{
+	text-align: center;
+	font-family: papyrus;
+	font-size: 25px;
+	padding: 20px 25px;
+	border: 3px solid black;
+}
+.spanduk{
+	height: 47vh;
+	background-image: url(../img/keraton.jpg);
+	background-size: auto;
+	justify-content: center;
+	align-items: center;
+}
+.keraton p{
+	color: black;
+	word-spacing: ;
+	text-align: justify;
+	font-family: calibri;
+	padding: 10px 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.keraton h4{
+	padding-left: 50px;
+	padding-right: 50px;
+	font-family: monaco;
+}
+.proyeksi1 h2{
+	font-family: papyrus;
+	text-align: center;
+	font-size: 25px;
+	padding: 20px 25 px;
+	border: 3px solid black;
+	background-color: #ABEBC6 ;
+	margin: 0px 20px 0px 20px;
+}
+.proyeksi1 p{
+	height: 30vh;
+	border: 3px solid black;
+	font-size: 25px;
+	font-family: calibri;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+}
+.proyeksi2 h2{
+	font-family: papyrus;
+	text-align: center;
+	font-size: 25px;
+	padding: 20px 25 px;
+	border: 3px solid black;
+	background-color: #ABEBC6;
+	margin: 0px 20px 0px 20px;
+}
+.proyeksi2 p{
+	height: 30vh;
+	border: 3px solid black;
+	font-size: 25px;
+	font-family: calibri;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 50px;
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+}
+.proyeksi3 h2{
+	font-family: papyrus;
+	text-align: center;
+	font-size: 25px;
+	padding: 20px 25 px;
+	border: 3px solid black;
+	background-color: #ABEBC6;
+	margin: 0px 20px 0px 20px;
+}
+.proyeksi3 p{
+	height: 30vh;
+	border: 3px solid black;
+	font-size: 25px;
+	font-family: calibri;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 40px;
+	text-align: center;
+	margin: 0px 20px 0px 20px;
+}
